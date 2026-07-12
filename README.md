@@ -184,6 +184,6 @@ The integrated **AI Loan Assistant** enhances officer workflows:
 
 ### About the Author
 
-Gurveer Singh specializes in **Data Science, ML, and Full Stack Development**. This project demonstrates how AI, ML, and secure web platforms can transform loan management into a smart, data-driven system.
+Saksham Uppal specializes in **Data Science, ML, and Full Stack Development**. This project demonstrates how AI, ML, and secure web platforms can transform loan management into a smart, data-driven system.
 
 **Connect:** Reach out for collaboration, feedback, or any queries regarding this project.
