@@ -180,7 +180,7 @@ The integrated **AI Loan Assistant** enhances officer workflows:
 - **Role:** Data Scientist & Full Stack Developer
 - **GitHub:** [https://github.com/sakshamuppal12](https://github.com/sakshamuppal12)
 - **LinkedIn:** [www.linkedin.com/in/sakshamuppal12](www.linkedin.com/in/sakshamuppal12)
-- **Email:** indian.army25ff@gmail.com
+- **Email:** sakshamuppal3@gmail.com
 
 ### About the Author
 
