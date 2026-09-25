@@ -5,9 +5,13 @@ __pycache__/
 *.pyd
 *.egg-info/
 
-# Virtual env
+# Virtual environments
+.venv-project/
 venv/
-.env/
+.venv/
+
+# Environment variables
+.env
 
 # Jupyter
 *.ipynb_checkpoints/
@@ -15,11 +19,12 @@ venv/
 # Databases
 instance/*.db
 *.sqlite3
+*.db
 
 # Logs
 *.log
 
-# ML artifacts (exclude local junk, but keep models tracked by LFS)
+# ML artifacts
 *.joblib
 *.h5
 *.model

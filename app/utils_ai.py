@@ -28,7 +28,7 @@ def get_ai_answer(user_message, loan, officer):
     if hasattr(officer, "role") and officer.role == "admin":
         return (f"Hello {officer.username}, I see you are logged in as an Admin. "
             "This AI assistant is currently tailored for Loan Officers to manage borrower and loan insights. "
-            "For administrative access to this service, please contact the developer, Gurveer Singh.")
+            "For administrative access, please contact the system administrator.")
     
     # --- Friendly / conversational responses ---
     if re.search(r'\b(hello|hi|hey)\b', msg):
@@ -44,7 +44,7 @@ def get_ai_answer(user_message, loan, officer):
         return "I'm functioning at full capacity, ready to help you with your loans!"
 
     if "who made you" in msg or "who created you" in msg:
-        return "I was created by Gurveer Singh to assist Loan Officers in making informed decisions."
+        return "I was created by Saksham Uppal to assist Loan Officers in making informed decisions."
 
     if "bye" in msg or "see you" in msg:
         return "Goodbye! Wishing you a productive day."
@@ -171,7 +171,7 @@ def get_ai_answer(user_message, loan, officer):
             if hasattr(loan, "jobs_created"):
                 safe_msgs.append("jobs_created is high, reducing risk" if loan.jobs_created > 50 else "jobs_created is low, increasing risk")
             if hasattr(loan, "jobs_retained"):
-                safe_msgs.append("jobs_retained is sufficient" if loan.jobs_reatained > 2 else "jobs_retained is low, increasing risk")
+                safe_msgs.append("jobs_retained is sufficient" if loan.jobs_retained > 2 else "jobs_retained is low, increasing risk")
             if hasattr(loan, "guaranteed_approved__loan"):
                 safe_msgs.append("guaranteed_approved_loan is moderate, reducing risk" if loan.guaranteed_approved__loan < 2_000_000 else "guaranteed_approved_loan is high, increasing risk")
             explanation += "\n\n" + "; ".join(safe_msgs)

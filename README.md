@@ -4,7 +4,7 @@
 
 ---
 
-## **🚀 LIVE DEMO:** [Click here to see the project in action!](https://smart-loan-crm-9c860c8ee5b7.herokuapp.com/)
+## **🚀 LIVE DEMO:** _(Add your deployed URL here once live, e.g. Render/Heroku link)_
 
 ⚡ **Note:** This project is a **live prototype** built for **training, demonstration, and recruiter showcase purposes**.
 
