@@ -16,3 +16,4 @@ gdown==4.7.1
 numpy==1.26.2
 shap
 lightgbm
+psycopg[binary]==3.3.6
